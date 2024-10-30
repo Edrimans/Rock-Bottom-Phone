@@ -1,0 +1,25 @@
+.phone-container { background-color: #fff; display: flex; max-width: 480px; width: 100%; padding: 54px 0 0; flex-direction: column; overflow: hidden; margin: 0 auto; }
+    .header-wrapper { display: flex; width: 100%; flex-direction: column; align-items: start; padding: 0 22px; }
+    .navigation-container { display: flex; width: 100%; max-width: 309px; gap: 20px; justify-content: space-between; }
+    .social-links { align-self: start; display: flex; margin-top: 9px; gap: 21px; }
+    .social-icon { aspect-ratio: 1; object-fit: contain; object-position: center; width: 16px; }
+    .social-icon-special { aspect-ratio: 1.07; object-fit: contain; object-position: center; width: 16px; align-self: start; }
+    .brand-container { display: flex; align-items: start; gap: 40px 77px; font-family: Bokor, sans-serif; font-weight: 400; }
+    .brand-title { color: #000; font-size: 20px; }
+    .info-badge-wrapper { display: flex; margin-top: 15px; flex-direction: column; font-size: 11px; color: #fff; white-space: nowrap; }
+    .info-badge { z-index: 10; background-color: #000; border-radius: 50%; width: 12px; height: 12px; padding: 0 5px 6px; }
+    .categories-section { display: flex; margin-top: 134px; gap: 2px; color: #000; white-space: nowrap; font: 400 20px Bokor, sans-serif; }
+    .category-men { display: flex; flex-direction: column; }
+    .category-title { align-self: center; }
+    .category-image { aspect-ratio: 0.56; object-fit: contain; object-position: center; width: 166px; margin-top: 55px; }
+    .category-women { display: flex; flex-direction: column; }
+    .category-title-women { align-self: center; margin-left: 16px; }
+    .banner-section { display: flex; flex-direction: column; position: relative; aspect-ratio: 2.068; margin-top: 80px; width: 100%; align-items: center; padding: 24px 79px 112px; }
+    .banner-background { position: absolute; inset: 0; height: 100%; width: 100%; object-fit: cover; object-position: center; }
+    .banner-content { position: relative; display: flex; margin-bottom: -22px; width: 96px; flex-direction: column; align-items: center; }
+    .banner-icon { aspect-ratio: 1.63; object-fit: contain; object-position: center; width: 31px; }
+    .banner-links { display: flex; width: 74px; }
+    .banner-link-left { aspect-ratio: 3.88; object-fit: contain; object-position: center; width: 31px; align-self: start; }
+    .banner-link-right { aspect-ratio: 4.78; object-fit: contain; object-position: center; width: 43px; }
+    .banner-footer { align-self: stretch; display: flex; margin-top: 9px; align-items: start; gap: 20px; justify-content: space-between; }
+    .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
